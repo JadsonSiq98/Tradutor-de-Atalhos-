@@ -1,3 +1,12 @@
+# Tradutor de Atalhos (Detecção → PT)
+
+[![Instalar](https://img.shields.io/badge/Instalar-iCloud-blue)](COLE_AQUI_O_LINK_ICLOUD)
+
+## Instalação rápida
+1. Clique no botão **Instalar (iCloud)** (ou no link do iCloud abaixo).
+2. O Safari abrirá o iCloud → toque em "Obter Atalho".
+3. O app Atalhos vai abrir — confirme a importação e execute.
+
 [README_TradutorDeAtalhos.md](https://github.com/user-attachments/files/22757534/README_TradutorDeAtalhos.md)
 # Tradutor de Atalhos (Detecção Automática → Português)
 
