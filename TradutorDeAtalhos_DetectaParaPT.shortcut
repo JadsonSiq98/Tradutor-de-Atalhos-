@@ -1,5 +1,53 @@
+import Shortcuts
+#Color: red, #Icon: shortcuts
 {
-    "WFWorkflowClientRelease": "2.1",
-    "WFWorkflowName": "Tradutor de Atalhos (Detecção → PT)",
-    "WFWorkflowActions": []
+  "WFWorkflowClientRelease": "2.1",
+  "WFWorkflowTypes": [
+    "NCWidget",
+    "WatchKit"
+  ],
+  "WFWorkflowIcon": {
+    "WFWorkflowIconGlyphNumber": 59513,
+    "WFWorkflowIconImageData": null,
+    "WFWorkflowIconStartColor": 4289379276
+  },
+  "WFWorkflowActions": [
+    {
+      "WFWorkflowActionIdentifier": "is.workflow.actions.getshortcuts",
+      "WFWorkflowActionParameters": {}
+    },
+    {
+      "WFWorkflowActionIdentifier": "is.workflow.actions.repeat.each",
+      "WFWorkflowActionParameters": {
+        "WFControlFlowMode": 0,
+        "GroupingIdentifier": "REPEATBLOCK"
+      }
+    },
+    {
+      "WFWorkflowActionIdentifier": "is.workflow.actions.getshortcutdetails",
+      "WFWorkflowActionParameters": {
+        "WFShortcutDetail": "Name"
+      }
+    },
+    {
+      "WFWorkflowActionIdentifier": "is.workflow.actions.translate",
+      "WFWorkflowActionParameters": {
+        "WFInputLanguage": "auto",
+        "WFOutputLanguage": "pt"
+      }
+    },
+    {
+      "WFWorkflowActionIdentifier": "is.workflow.actions.notification",
+      "WFWorkflowActionParameters": {
+        "WFNotificationActionTitle": "Tradução concluída",
+        "WFNotificationActionBody": "🔤 Nome original → Texto traduzido"
+      }
+    },
+    {
+      "WFWorkflowActionIdentifier": "is.workflow.actions.repeat.end",
+      "WFWorkflowActionParameters": {}
+    }
+  ],
+  "WFWorkflowName": "Tradutor de Atalhos (Detecção Automática → Português)",
+  "WFWorkflowClientVersion": "2.1"
 }
