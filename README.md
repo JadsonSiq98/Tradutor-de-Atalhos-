@@ -1,6 +1,6 @@
 # Tradutor de Atalhos (Detecção → PT)
 
-[![Instalar](https://img.shields.io/badge/Instalar-iCloud-blue)](COLE_AQUI_O_LINK_ICLOUD)
+[![Instalar](https://img.shields.io/badge/Instalar-iCloud-blue)]https://www.icloud.com/shortcuts/fd48ee5d701f4dcfae8e09ca857a53bb
 
 ## Instalação rápida
 1. Clique no botão **Instalar (iCloud)** (ou no link do iCloud abaixo).
